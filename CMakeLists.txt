@@ -3,4 +3,8 @@ project(CSS_342)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CSS_342 fraction.cpp)
+add_executable(CSS_342 fraction.cpp
+        primenumber.cpp
+        primenumber.h
+        notes.cpp
+        notes.h)

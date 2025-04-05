@@ -41,15 +41,15 @@ int main() {
 void test() {
     // given an input, the actual output should match the expected output
     Fraction inputs[4] = {Fraction(1,2),
-                          Fraction{2, 4},
-                          Fraction{4, 2},
-                          Fraction{6, 8}
+                          Fraction(2, 4),
+                          Fraction(4, 2),
+                          Fraction(6, 8)
     };
 
     Fraction outputs[4] = {Fraction(1,2),
-                           Fraction{1, 2},
-                           Fraction{2, 1},
-                           Fraction{3, 4}
+                           Fraction(1, 2),
+                           Fraction(2, 1),
+                           Fraction(3, 4)
     };
 
     // call the function
